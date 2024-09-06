@@ -1,0 +1,126 @@
+<html>
+  <head>
+    <title>Join Sistem</title>
+    <!-- Cascade Style Sheet -->
+    <style>
+      .btn{
+        background-color: transparent;
+      }
+
+      .title{
+        color:green;
+      }
+
+      .header{
+        display: flex;
+        align-items: center;
+      }
+    </style>
+
+    <!-- JavaScript -->
+    <script>
+
+    </script>
+  </head>
+  <body>
+    <!-- HTML -->
+    <header class="header">
+      <img src="images/kucing-oyen.jpg" alt="Gambar Kucing" width="56" loading="lazy">
+      <h1 id="title" class="title btn">Judul Join Sistem Bootcamp</h1>
+    </header>
+    <aside>
+      <ul>
+        <li><a class="btn" href="index.html">Home</a></li>
+        <li><a class="btn" href="about.html">About</a></li>
+      </ul>
+    </aside>
+    <main>
+      <article>
+        <h2>Unordered List</h2>
+        <ul>
+          <li>
+            <h3 class="btn">Subjudul 1</h3>
+            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+            <h4>Sub Sub Judul 1</h4>
+            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+            <h4>Sub Sub Judul 2</h4>
+            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+            <a class="btn" href="about.html">detail artikel</a>
+          </li>
+          <li>
+            <h3 class="btn">Subjudul 2</h3>
+            <p class="btn">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam adipisci officiis id ducimus, provident praesentium commodi non quasi natus in nostrum minus nobis a sunt harum suscipit, asperiores maxime. Impedit!</p>
+            <a class="btn" href="about.html">detail artikel</a>
+          </li>
+        </ul>
+        <h2>Ordered List</h2>
+        <ol>
+          <li>
+            <h3 class="btn">H4 & Paragraf</h3>
+            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+            <h4>Sub Sub Judul 1</h4>
+            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+            <h4>Sub Sub Judul 2</h4>
+            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+            <a class="btn" href="about.html" target="blank">detail artikel</a>
+          </li>
+          <li>
+            <h3 class="btn">Form</h3>
+            <p class="btn"><b>Lorem ipsum dolor</b>, <i><b>sit amet</b> consectetur adipisicing elit.</i><sub>Quibusdam adipisci</sub> <sup>Quibusdam adipisci officiis id ducimus,</sup> provident praesentium commodi non quasi natus in nostrum minus nobis a sunt harum suscipit, asperiores maxime. Impedit!</p>
+            <a class="btn" href="https://google.com" target="blank">detail artikel</a>
+          </li>
+        </ol>
+      </article>
+      <section>
+        <ul>
+          <li>      
+            <!-- ada 2 method action GET dan POST -->
+            <!-- GET : untuk melihat data yang ada di serve -->
+            <!-- POST : untuk mengirim data ke serve -->
+            <form action="/login.php" method="post">
+              <label for="username">Username</label>
+              <input type="text" name="username" placeholder="Masukan username">
+              <label for="username">Password</label>
+              <input type="text" name="password" placeholder="Masukan password">
+              <button type="submit">Login</button>
+            </form>
+          </li>
+          <li>
+            <div>
+              <h3 class="btn">Iframe</h3>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126564.76010978955!2d110.73715686522358!3d-7.558754923204872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a14234667a3fd%3A0xbda63b32997616ad!2sSebelas%20Maret%20University!5e0!3m2!1sen!2sid!4v1725454835369!5m2!1sen!2sid" width="200" height="150" style="border: 0;"></iframe>
+            </div>
+            <div>
+              <iframe width="200" height="150" src="https://www.youtube.com/embed/074MzJREjdY?si=WpXNHawYU6X1fVd-" title="YouTube video player" frameborder="0" style="border:5px; border-color: brown; border-style: dotted;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </li>
+          <li>
+            <table>
+              <tr>
+                <th>No</th>
+                <th>Nama</th>
+                <th>NPM</th>
+                <th>Domisili</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Yohanes</td>
+                <td>123456</td>
+                <td>Bogor</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Reno</td>
+                <td>123456</td>
+                <td>Yogyakarta</td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright &copy; 2022 Join Sistem Bootcamp</p>
+    </footer>
+  </body>
+</html>
