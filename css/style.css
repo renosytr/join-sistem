@@ -1,0 +1,60 @@
+/* External Style CSS */
+
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #ffe4af;
+}
+
+/* Element Selector */
+h1 {
+  color: #505050;
+}
+
+/* Class Selector */
+.sidebar-menu {
+  background-color: yellow; 
+  padding: 20px; 
+  border: 2px solid green;
+  border-radius: 25px;
+  width: 156px;
+}
+
+/* ID Selector */
+#title-h1 {
+  font-weight: 100;
+}
+
+.navbar{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-title{
+  display: flex;
+  align-items: center;
+}
+
+.navbar-title .image{
+  margin: 10px 5px 10px 0
+}
+
+.navbar-title .title{
+  font-size: 16px;
+  margin-left: 12px;
+}
+
+.navbar-menu{
+  display: flex;
+  list-style: none;
+}
+
+.navbar-menu .navbar-menu-item{
+  display: flex;
+  align-items: center;
+}

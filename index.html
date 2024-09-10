@@ -1,19 +1,23 @@
 <html>
   <head>
     <title>Join Sistem</title>
-    <!-- Cascade Style Sheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Internal Style CSS -->
     <style>
       .btn{
         background-color: transparent;
       }
 
-      .title{
-        color:green;
-      }
-
       .header{
         display: flex;
         align-items: center;
+        background-image: url("images/kucing-oyen.jpg");
+        background-repeat: no-repeat;
+        background-position: 50% 20%;
+        background-size: cover;
+        background-blend-mode: darken;
+        background-color: red;
+        background-color: purple;
       }
     </style>
 
@@ -24,11 +28,24 @@
   </head>
   <body>
     <!-- HTML -->
-    <header class="header">
-      <img src="images/kucing-oyen.jpg" alt="Gambar Kucing" width="56" loading="lazy">
-      <h1 id="title" class="title btn">Judul Join Sistem Bootcamp</h1>
+    <!-- Inline Style CSS dipisahkan dengan semicolon -->
+    <header class="header" style="padding: 20px; border: 2px solid green;">
+      <navbar class="navbar">
+        <div class="navbar-title">
+          <img src="images/kucing-oyen.jpg" class="image" alt="Gambar Kucing" width="56" loading="lazy">
+          <h1 id="title-h1" class="title btn">Judul Join Sistem Bootcamp</h1>
+        </div>
+        <ul class="navbar-menu">
+          <li class="navbar-menu-item">Home</li>
+          <li class="navbar-menu-item">Features</li>
+          <li class="navbar-menu-item">Portofolio</li>
+          <li class="navbar-menu-item">Blog</li>
+          <li class="navbar-menu-item">Pricing</li>
+          <li class="navbar-menu-item">get Started Now</li>
+        </ul>
+      </navbar>
     </header>
-    <aside>
+    <aside class="sidebar-menu">
       <ul>
         <li><a class="btn" href="index.html">Home</a></li>
         <li><a class="btn" href="about.html">About</a></li>
