@@ -1,0 +1,22 @@
+{
+  "name": "join-sistem",
+  "version": "1.0.0",
+  "description": "IT Bootcamp FE SIF X Join Sistem",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renosytr/join-sistem.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/renosytr/join-sistem/issues"
+  },
+  "homepage": "https://github.com/renosytr/join-sistem#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.11"
+  }
+}
