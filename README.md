@@ -1,4 +1,4 @@
-# Join Sistsem X SIF
+# Join Sistem X SIF
 
 Praktikum project Bootcamp road to SIF Universitas Sebelas Maret (UNS). 
 
