@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -19,14 +20,55 @@ h1 {
 .sidebar-menu {
   background-color: yellow; 
   padding: 20px; 
-  border: 2px solid green;
   border-radius: 25px;
-  width: 156px;
+  width: 350px;
+  height: 400px;
+  box-shadow: -10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.sidebar-menu .sidebar-menu-list{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.sidebar-menu .sidebar-menu-list .order-1{
+  order: 1;
+  width: 100%;
+  position: relative;
+  text-align: center;
+}
+
+.sidebar-menu .sidebar-menu-list .order-1 .flying-button{
+  position: absolute;
+  left: 100px;
+}
+
+.sidebar-menu .sidebar-menu-list .order-2{
+  order: 2;
+  width: 100%;
+  text-align: center;
+}
+
+.sidebar-menu .sidebar-menu-list .order-3{
+  order: 3;
+  width: 100%;
+  text-align: center;
 }
 
 /* ID Selector */
 #title-h1 {
-  font-weight: 100;
+  font-weight: 900;
+}
+
+.header{
+  display: flex;
+  align-items: center;
+  background-color: #EE5335;
 }
 
 .navbar{
@@ -38,6 +80,7 @@ h1 {
 .navbar-title{
   display: flex;
   align-items: center;
+  text-decoration: none;
 }
 
 .navbar-title .image{
@@ -47,9 +90,10 @@ h1 {
 .navbar-title .title{
   font-size: 16px;
   margin-left: 12px;
+  color: white;
 }
 
-.navbar-menu{
+.navbar-menu {
   display: flex;
   list-style: none;
 }
@@ -57,4 +101,36 @@ h1 {
 .navbar-menu .navbar-menu-item{
   display: flex;
   align-items: center;
+}
+
+.navbar-menu .navbar-menu-item .navbar-link{
+  color: white;
+  font-weight: 900;
+  margin: 0 12px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-menu .navbar-menu-item .navbar-link:hover{
+  color: #F5AB41;
+}
+
+.navbar-menu .btn-menu-item{
+  padding: 12px;
+  margin: 0 12px;
+  color: white;
+  font-weight: 900;
+  background-color: #F5AB41;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.container{
+  display: flex;
+  padding: 24px;
+}
+
+.main-article{
+  padding: 24px;
 }

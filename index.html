@@ -2,22 +2,11 @@
   <head>
     <title>Join Sistem</title>
     <link rel="stylesheet" href="css/style.css">
+
     <!-- Internal Style CSS -->
     <style>
       .btn{
         background-color: transparent;
-      }
-
-      .header{
-        display: flex;
-        align-items: center;
-        background-image: url("images/kucing-oyen.jpg");
-        background-repeat: no-repeat;
-        background-position: 50% 20%;
-        background-size: cover;
-        background-blend-mode: darken;
-        background-color: red;
-        background-color: purple;
       }
     </style>
 
@@ -29,113 +18,137 @@
   <body>
     <!-- HTML -->
     <!-- Inline Style CSS dipisahkan dengan semicolon -->
-    <header class="header" style="padding: 20px; border: 2px solid green;">
+    <header class="header" style="padding: 20px;">
       <navbar class="navbar">
-        <div class="navbar-title">
-          <img src="images/kucing-oyen.jpg" class="image" alt="Gambar Kucing" width="56" loading="lazy">
-          <h1 id="title-h1" class="title btn">Judul Join Sistem Bootcamp</h1>
-        </div>
+        <a href="/" class="navbar-title">
+          <img src="images/kucing-oyen.jpg" class="image" alt="Gambar Kucing" width="32" loading="lazy">
+          <h1 id="title-h1" class="title btn">Join Sistem Bootcamp</h1>
+        </a>
         <ul class="navbar-menu">
-          <li class="navbar-menu-item">Home</li>
-          <li class="navbar-menu-item">Features</li>
-          <li class="navbar-menu-item">Portofolio</li>
-          <li class="navbar-menu-item">Blog</li>
-          <li class="navbar-menu-item">Pricing</li>
-          <li class="navbar-menu-item">get Started Now</li>
+          <li class="navbar-menu-item">
+            <a href="/" class="navbar-link">Home</a>
+          </li>
+          <li class="navbar-menu-item">
+            <a href="about.html" class="navbar-link">About</a>
+          </li>
+          <li class="navbar-menu-item">
+            <a href="/" class="navbar-link">Portofolio</a>
+          </li>
+          <li class="navbar-menu-item">
+            <a href="/" class="navbar-link">Blog</a>
+          </li>
+          <li class="navbar-menu-item">
+            <a href="/" class="navbar-link">Pricing</a>
+          </li>
+          <li class="navbar-menu-item">
+            <button type="button" class="btn-menu-item">Get Started Now</button>
+          </li>
         </ul>
       </navbar>
     </header>
-    <aside class="sidebar-menu">
-      <ul>
-        <li><a class="btn" href="index.html">Home</a></li>
-        <li><a class="btn" href="about.html">About</a></li>
-      </ul>
-    </aside>
-    <main>
-      <article>
-        <h2>Unordered List</h2>
-        <ul>
-          <li>
-            <h3 class="btn">Subjudul 1</h3>
-            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
-            <h4>Sub Sub Judul 1</h4>
-            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
-            <h4>Sub Sub Judul 2</h4>
-            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
-            <a class="btn" href="about.html">detail artikel</a>
+    <section class="container">
+      <aside class="sidebar-menu">
+        <ul class="sidebar-menu-list">
+          <li class="order-1">
+            <a class="btn flying-button" href="index.html">Home</a>
           </li>
-          <li>
-            <h3 class="btn">Subjudul 2</h3>
-            <p class="btn">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam adipisci officiis id ducimus, provident praesentium commodi non quasi natus in nostrum minus nobis a sunt harum suscipit, asperiores maxime. Impedit!</p>
-            <a class="btn" href="about.html">detail artikel</a>
+          <li class="order-2">
+            <a class="btn" href="about.html">About</a>
+          </li>
+          <li class="order-3">
+            <a class="btn" href="about.html">Portofolio</a>
           </li>
         </ul>
-        <h2>Ordered List</h2>
-        <ol>
-          <li>
-            <h3 class="btn">H4 & Paragraf</h3>
-            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
-            <h4>Sub Sub Judul 1</h4>
-            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
-            <h4>Sub Sub Judul 2</h4>
-            <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
-            <a class="btn" href="about.html" target="blank">detail artikel</a>
-          </li>
-          <li>
-            <h3 class="btn">Form</h3>
-            <p class="btn"><b>Lorem ipsum dolor</b>, <i><b>sit amet</b> consectetur adipisicing elit.</i><sub>Quibusdam adipisci</sub> <sup>Quibusdam adipisci officiis id ducimus,</sup> provident praesentium commodi non quasi natus in nostrum minus nobis a sunt harum suscipit, asperiores maxime. Impedit!</p>
-            <a class="btn" href="https://google.com" target="blank">detail artikel</a>
-          </li>
-        </ol>
-      </article>
+      </aside>
+      <main class="main-article">
+        <article>
+          <h2>Unordered List</h2>
+          <ul>
+            <li>
+              <h3 class="btn">Subjudul 1</h3>
+              <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+              <h4>Sub Sub Judul 1</h4>
+              <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+              <h4>Sub Sub Judul 2</h4>
+              <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+              <a class="btn" href="about.html">detail artikel</a>
+            </li>
+            <li>
+              <h3 class="btn">Subjudul 2</h3>
+              <p class="btn">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quibusdam adipisci officiis id ducimus, provident praesentium commodi non quasi natus in nostrum minus nobis a sunt harum suscipit, asperiores maxime. Impedit!</p>
+              <a class="btn" href="about.html">detail artikel</a>
+            </li>
+          </ul>
+          <h2>Ordered List</h2>
+          <ol>
+            <li>
+              <h3 class="btn">H4 & Paragraf</h3>
+              <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+              <h4>Sub Sub Judul 1</h4>
+              <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+              <h4>Sub Sub Judul 2</h4>
+              <p class="btn">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur dolore quae voluptatum aliquid? Eius qui ullam, molestiae, mollitia corporis doloribus optio necessitatibus et adipisci eaque magni, beatae modi similique! Illum.</p>
+              <a class="btn" href="about.html" target="blank">detail artikel</a>
+            </li>
+            <li>
+              <h3 class="btn">Form</h3>
+              <p class="btn"><b>Lorem ipsum dolor</b>, <i><b>sit amet</b> consectetur adipisicing elit.</i><sub>Quibusdam adipisci</sub> <sup>Quibusdam adipisci officiis id ducimus,</sup> provident praesentium commodi non quasi natus in nostrum minus nobis a sunt harum suscipit, asperiores maxime. Impedit!</p>
+              <a class="btn" href="https://google.com" target="blank">detail artikel</a>
+            </li>
+          </ol>
+        </article>
+        <section>
+          <ul>
+            <li>      
+              <!-- ada 2 method action GET dan POST -->
+              <!-- GET : untuk melihat data yang ada di serve -->
+              <!-- POST : untuk mengirim data ke serve -->
+              <form action="/login.php" method="post">
+                <label for="username">Username</label>
+                <input type="text" name="username" placeholder="Masukan username">
+                <label for="username">Password</label>
+                <input type="text" name="password" placeholder="Masukan password">
+                <button type="submit">Login</button>
+              </form>
+            </li>
+            <li>
+              <div>
+                <h3 class="btn">Iframe</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126564.76010978955!2d110.73715686522358!3d-7.558754923204872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a14234667a3fd%3A0xbda63b32997616ad!2sSebelas%20Maret%20University!5e0!3m2!1sen!2sid!4v1725454835369!5m2!1sen!2sid" width="200" height="150" style="border: 0;"></iframe>
+              </div>
+              <div>
+                <iframe width="200" height="150" src="https://www.youtube.com/embed/074MzJREjdY?si=WpXNHawYU6X1fVd-" title="YouTube video player" frameborder="0" style="border:5px; border-color: brown; border-style: dotted;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+              </div>
+            </li>
+            <li>
+              <table>
+                <tr>
+                  <th>No</th>
+                  <th>Nama</th>
+                  <th>NPM</th>
+                  <th>Domisili</th>
+                </tr>
+                <tr>
+                  <td>1</td>
+                  <td>Yohanes</td>
+                  <td>123456</td>
+                  <td>Bogor</td>
+                </tr>
+                <tr>
+                  <td>2</td>
+                  <td>Reno</td>
+                  <td>123456</td>
+                  <td>Yogyakarta</td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </section>
+      </main>
       <section>
-        <ul>
-          <li>      
-            <!-- ada 2 method action GET dan POST -->
-            <!-- GET : untuk melihat data yang ada di serve -->
-            <!-- POST : untuk mengirim data ke serve -->
-            <form action="/login.php" method="post">
-              <label for="username">Username</label>
-              <input type="text" name="username" placeholder="Masukan username">
-              <label for="username">Password</label>
-              <input type="text" name="password" placeholder="Masukan password">
-              <button type="submit">Login</button>
-            </form>
-          </li>
-          <li>
-            <div>
-              <h3 class="btn">Iframe</h3>
-              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126564.76010978955!2d110.73715686522358!3d-7.558754923204872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a14234667a3fd%3A0xbda63b32997616ad!2sSebelas%20Maret%20University!5e0!3m2!1sen!2sid!4v1725454835369!5m2!1sen!2sid" width="200" height="150" style="border: 0;"></iframe>
-            </div>
-            <div>
-              <iframe width="200" height="150" src="https://www.youtube.com/embed/074MzJREjdY?si=WpXNHawYU6X1fVd-" title="YouTube video player" frameborder="0" style="border:5px; border-color: brown; border-style: dotted;" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-          </li>
-          <li>
-            <table>
-              <tr>
-                <th>No</th>
-                <th>Nama</th>
-                <th>NPM</th>
-                <th>Domisili</th>
-              </tr>
-              <tr>
-                <td>1</td>
-                <td>Yohanes</td>
-                <td>123456</td>
-                <td>Bogor</td>
-              </tr>
-              <tr>
-                <td>2</td>
-                <td>Reno</td>
-                <td>123456</td>
-                <td>Yogyakarta</td>
-              </tr>
-            </table>
-          </li>
-        </ul>
+        Contact Us
       </section>
-    </main>
+    </section>
     <footer>
       <p>Copyright &copy; 2022 Join Sistem Bootcamp</p>
     </footer>
